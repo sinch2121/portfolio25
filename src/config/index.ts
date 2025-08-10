@@ -1,23 +1,20 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Sinchana Salimath — Aspiring Data Scientist & Computer Science Student",
+  author: "Sinchana Salimath",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Aspiring Data Scientist & CS student, building AI-powered solutions in ML, computer vision, and web development—driven to solve real-world problems and keep learning.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/sinch.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/sinchana-salimath-b6b26325b/" },
+    { text: "Github", href: "https://github.com/sinch2121?tab=repositories" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,73 +22,71 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Sinchana Salimath",
+    specialty: "Aspiring Data Scientist",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Aspiring Data Scientist & CS student, building AI-powered solutions in ML, computer vision, and web development—driven to solve real-world problems and keep learning.",
+    email: "sinchanaasal@email.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "EinetCorp",
+      position: "AI/ML Engineer",
+      startDate: "January 2025",
+      endDate: "May 202",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Developed a Streamlit-based AI application leveraging YOLOv5 and OpenCV for real-time object detection tailored to assist visually impaired users via smart glasses.",
+        "Integrated text-to-speech (TTS) feedback using pyttsx3 to provide audio descriptions of detected objects, enhancing user accessibility.",
+        "Implemented offline deployment on Raspberry Pi to enable portable, standalone operation without internet connectivity. ",
+        "Created automated generation of detailed detection reports (PDF and CSV) from images, videos, and live webcam streams to support user monitoring and analysis.",
       ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Breast Cancer Prediction system",
+      summary: "The Breast Cancer Diagnosis app is a machine learning-powered tool designed to assist medical professionals in diagnosing breast cancer.",
+      linkPreview: "https://breast-cancer-prediction-y8pagn8hxdvegvz6wvhr8q.streamlit.app/",
+      linkSource: "https://github.com/sinch2121/Breast-Cancer-Prediction",
+      image: "/breastcancer.jpg",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Real-time Object Detection using Computer Vision",
+      summary: "Built a Streamlit-based application using YOLOv5, OpenCV, and pyttsx3 to assist visually impaired users through smart glasses.",
+      linkSource: "https://github.com/sinch2121/Real-time-Object-Detection-using-Computer-Vision",
+      image: "/impaired.jpg",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Pan Card Tampering",
+      summary: "The PAN Card Tampering Detection project is a computer vision-based solution designed to help organizations verify the authenticity of PAN cards provided by their employees.",
+      linkSource: "https://github.com/sinch2121/pancard-tampering",
+      image: "/pancard.jpg",
+    },
+      {
+      name: "Advertisement of Indian Cities",
+      summary:"Designed a visually engaging static website using HTML and CSS to showcase popular Indian Cities.",
+      linkSource: "https://github.com/sinch2121/Indian-cities",
+      image: "/cities.jpg",
+    },
+    {
+      name: "To-do list using EJS",
+      summary:"A basic to-do list project which accepts necessary tasks.",
+      linkSource: "https://github.com/sinch2121/To-do-list-using-EJS",
+      image: "/to-do.jpg",
+    },
+     {
+      name: "Food delivery webpage",
+      summary:"Leveraged HTML, CSS, jQuery and Bootstrap to craft an intuitive and visually appealing user interface. ",
+      linkSource: "https://github.com/sinch2121/Food-Delivery-webpage",
+      image: "/food.jpg",
     },
   ],
+
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Hi, I'm an aspiring data scientist and Computer Science student with hands-on experience in real-time machine learning applications, computer vision, and full-stack development. I enjoy building intelligent systems—from AI-powered assistive tools to predictive analytics dashboards. Currently seeking internship or job opportunities where I can apply my skills in Python, ML, and web development to solve meaningful problems and keep learning along the way.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/sinchmain.jpeg",
   },
 };
 
