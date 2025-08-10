@@ -41,18 +41,6 @@ export const SITE_CONTENT: SiteContent = {
         "Created automated generation of detailed detection reports (PDF and CSV) from images, videos, and live webcam streams to support user monitoring and analysis.",
       ],
     },
-    {
-  company: "Undergraduate Dissertation",
-  position: "Internship Project",
-  startDate: "Jan 2025",
-  endDate: "May 2025",
-  summary: [
-    "Conducted in-depth research and formal documentation of my AI-powered smart glasses project for visually impaired users.",
-    "Explored design choices, performance evaluation, and potential real-world impact in an academic context.",
-    "Produced a comprehensive dissertation detailing methodology, results, and future improvements.",
-    '📄 <a href="/dissertationreport.pdf" target="_blank" rel="noopener noreferrer">View Full Dissertation (PDF)</a>'
-  ],
-}
 
 
 
