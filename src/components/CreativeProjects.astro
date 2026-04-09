@@ -1,4 +1,6 @@
 ---
+import type { CreativeProjectProps } from "../types";
+
 const { projects } = Astro.props;
 ---
 
@@ -6,7 +8,7 @@ const { projects } = Astro.props;
   <h2 class="section-title">Creative / Digital Media Projects </h2>
 
   <div class="grid">
-    {projects.map((project) => (
+    {projects.map((project: CreativeProjectProps) => (
       <a href={project.link} target="_blank" class="card">
         <img src={project.image} alt={project.name} />
 
@@ -22,7 +24,7 @@ const { projects } = Astro.props;
   .section-title {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-      color: #f9f9fc;
+    color: #f9f9fc;
   }
 
   .grid {
