@@ -1,0 +1,50 @@
+---
+import type { ResearchProps } from "../types";
+const { research } = Astro.props;
+---
+
+<section id="research">
+  <h2 class="section-title">Research & Dissertations</h2>
+
+  {research.map((item: ResearchProps) => (
+    <div class="research-card">
+      <h3>{item.title}</h3>
+      <ul>
+        {item.description.map((point) => (
+          <li>{point}</li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</section>
+
+<style>
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #f7f7fb;
+  }
+
+  .research-card {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #111;
+    border-radius: 12px;
+  }
+
+  .research-card h3 {
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .research-card ul {
+  padding-left: 22px;
+  list-style-type: disc;
+  color: white; 
+}
+
+.research-card li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+</style>

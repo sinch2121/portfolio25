@@ -12,10 +12,8 @@ export interface SiteContent {
   hero: HeroProps;
   experience: ExperienceProps[];
   projects: ProjectProps[];
-
-  // ✅ ADD THIS HERE (inside interface)
   creativeProjects: CreativeProjectProps[];
-
+  research: ResearchProps[];   // ✅ ADD THIS
   about: AboutProps;
 }
 
@@ -32,6 +30,10 @@ export interface ExperienceProps {
   startDate: string;
   endDate: string;
   summary: string | string[];
+}
+export interface ResearchProps {
+  title: string;
+  description: string[];
 }
 
 export interface ProjectProps {

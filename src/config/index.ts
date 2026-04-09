@@ -28,23 +28,74 @@ export const SITE_CONTENT: SiteContent = {
       "Aspiring Data Scientist & CS student, building AI-powered solutions in ML, computer vision, and web development—driven to solve real-world problems and keep learning.",
     email: "sinchanaasal@email.com",
   },
-  experience: [
-    {
-      company: "EinetCorp",
-      position: "AI/ML Engineer",
-      startDate: "January 2025",
-      endDate: "May 202",
-      summary: [
-        "Developed a Streamlit-based AI application leveraging YOLOv5 and OpenCV for real-time object detection tailored to assist visually impaired users via smart glasses.",
-        "Integrated text-to-speech (TTS) feedback using pyttsx3 to provide audio descriptions of detected objects, enhancing user accessibility.",
-        "Implemented offline deployment on Raspberry Pi to enable portable, standalone operation without internet connectivity. ",
-        "Created automated generation of detailed detection reports (PDF and CSV) from images, videos, and live webcam streams to support user monitoring and analysis.",
-      ],
-    },
+ experience: [
+  {
+    company: "Manmed Dynamics",
+    position: "AI & ML Intern",
+    startDate: "Feb 2026",
+    endDate: "Present",
+    summary: [
+      "Developing machine learning modules for humanoid surgical assistant systems.",
+      "Designing data preprocessing pipelines for multi-source clinical datasets.",
+      "Integrating machine learning systems into low-latency robotic subsystems.",
+      "Evaluating system reliability and distributed architecture stability.",
+      "Contributing to fault-tolerant real-time machine learning workflows.",
+      "Worked in human-in-the-loop environments requiring reliable and interpretable outputs.",
+      "Considered interaction constraints and clarity in safety-critical applications."
+    ],
+  },
 
-
-
-  ],
+  {
+    company: "EinetCorp",
+    position: "AI/ML Engineer",
+    startDate: "January 2025",
+    endDate: "May 2025",
+    summary: [
+      "Developed a real-time object detection system for assistive smart glasses for visually impaired users.",
+      "Designed and integrated a text-to-speech feedback system to communicate real-time environmental information.",
+      "Considered usability and accessibility challenges in delivering real-time auditory feedback.",
+      "Evaluated system performance under real-world conditions, including lighting variation and environmental complexity.",
+      "Addressed interaction challenges related to response time, clarity of output, and user perception in assistive scenarios.",
+      "Optimized system deployment on Raspberry Pi for efficient real-time performance.",
+    ],
+  }
+],   
+research: [
+  {
+    title: "Research Paper (Under Revision) Analyzing the Impact of Governance Effectiveness on Unemployment. – 2025–2026",
+    description: [
+      
+      "Integrated 27 years of World Bank WGI & WDI datasets.",
+      "Applied causal inference using DoWhy framework.",
+      "Performed statistical validation and robustness analysis.",
+      "Designed counterfactual simulations.",
+      "Identified significant causal relationships.",
+      "Focused on methodological reasoning and real-world interpretation."
+    ],
+  },
+  {
+    title: "Connected Vehicle Data Analysis – 2025",
+    description: [
+      "Designed IoT-based distributed architecture for vehicle data.",
+      "Built streaming pipelines for sensor data processing.",
+      "Performed preprocessing and feature extraction.",
+      "Implemented Random Forest and SVM models.",
+      "Handled distributed system challenges.",
+      "Evaluated models using Accuracy, Precision, Recall, F1-score."
+    ],
+  },
+  {
+    title: "Real-time Object Detection System – 2025",
+    description: [
+      "Built real-time computer vision system using YOLO.",
+      "Implemented preprocessing and bounding box prediction.",
+      "Optimized for edge deployment.",
+      "Reduced latency via model tuning.",
+      "Developed real-time interaction pipeline.",
+      "Tested under varying environmental conditions."
+    ],
+  },
+],
   projects: [
     {
       name: "Breast Cancer Prediction system",
@@ -60,6 +111,28 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://github.com/sinch2121/Gemini-Retrieval-Augmented-Generation-RAG-system-with-LLMs-from-Scratch",
       image: "/ai.jpg",
     },
+
+    {
+  name: "Phishing Website Detection System",
+  summary: "A machine learning-powered system that detects phishing websites in real time using a Random Forest model and Streamlit interface.",
+  linkPreview: "https://phishing-detection-ml-system-8lhhvtecobzhmzuc99edcd.streamlit.app/", // 🔴 ADD YOUR LINK
+  linkSource: "https://github.com/sinch2121/Phishing-detection-ML-system", // 🔴 UPDATE IF NEEDED
+  image: "/phishing.png", // 🔴 add image in public/
+},
+{
+  name: "Network Intrusion Detection System",
+  summary: "A real-time ML intrusion detection system using Random Forest with interactive analytics and Streamlit deployment.",
+  linkPreview: "https://network-intrusion-detection-system-ylmit8digwtipykt84qlb9.streamlit.app/", // 🔴 ADD YOUR LINK
+  linkSource: "https://github.com/sinch2121/network-intrusion-detection-system", // 🔴 UPDATE
+  image: "/network.jpeg",
+},
+{
+  name: "Cocktail Restaurant Website (GSAP Animations)",
+  summary: "An interactive restaurant website with smooth GSAP animations and immersive UI built using HTML, CSS, and JavaScript.",
+  linkPreview: "https://velvetpourgsap1.vercel.app/", // Netlify / Vercel
+  linkSource: "https://github.com/sinch2121/gsap_cocktails", // 🔴 UPDATE
+  image: "/cocktail2.png",
+},
 
     {
       name: "Document Tampering Detection App",
