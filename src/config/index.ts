@@ -113,7 +113,7 @@ research: [
     },
     {
   name: "Adaptive Focus-Aware Interface",
-  summary: "Developed an adaptive human-computer interaction system that monitors real-time user interaction patterns such as mouse movement, activity intensity, and idle behavior to infer attention states. The interface dynamically responds through visual feedback, focus scoring, and contextual guidance, demonstrating principles of user-centered design, adaptive systems, and cognitive load management.",
+  summary: "Built an adaptive HCI system that infers user attention from interaction patterns and adjusts the interface through real-time feedback and focus scoring.",
   linkPreview: "https://sinch2121.github.io/hci-focus-adaptive-interface/",
   linkSource: "https://github.com/sinch2121/hci-focus-adaptive-interface",
   image: "/hci.jpg",
