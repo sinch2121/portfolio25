@@ -34,6 +34,7 @@ export interface ExperienceProps {
 export interface ResearchProps {
   title: string;
   description: string[];
+  pdf?: string;
 }
 
 export interface ProjectProps {

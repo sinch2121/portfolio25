@@ -14,6 +14,18 @@ const { research } = Astro.props;
           <li>{point}</li>
         ))}
       </ul>
+
+ {/* 👇 ADD THIS BLOCK RIGHT HERE */}
+      {item.pdf && (
+        <a
+          href={item.pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="pdf-button"
+        >
+          📄 View Full Paper
+        </a>
+      )}
     </div>
   ))}
 </section>
@@ -46,5 +58,20 @@ const { research } = Astro.props;
 .research-card li {
   margin-bottom: 8px;
   line-height: 1.5;
+}
+.pdf-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: #5755ff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.2s ease;
+}
+
+.pdf-button:hover {
+  opacity: 0.85;
 }
 </style>

@@ -72,6 +72,7 @@ research: [
       "Identified significant causal relationships.",
       "Focused on methodological reasoning and real-world interpretation."
     ],
+     pdf: "/independent_research_paper.pdf", 
   },
   {
     title: "Connected Vehicle Data Analysis – 2025",
@@ -83,6 +84,7 @@ research: [
       "Handled distributed system challenges.",
       "Evaluated models using Accuracy, Precision, Recall, F1-score."
     ],
+    pdf: "/ACADEMIC_DISSERTATION_2_connected vehicle-reportfinal.pdf", 
   },
   {
     title: "Real-time Object Detection System – 2025",
@@ -94,6 +96,7 @@ research: [
       "Developed real-time interaction pipeline.",
       "Tested under varying environmental conditions."
     ],
+    pdf: "/ACADEMIC_DISSERTATION_1_Real_time_object.pdf",
   },
 ],
   projects: [
