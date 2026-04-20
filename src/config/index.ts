@@ -74,6 +74,18 @@ research: [
     ],
      pdf: "/independent_research_paper.pdf", 
   },
+   {
+    title: "Real-time Object Detection System – 2025",
+    description: [
+      "Built real-time computer vision system using YOLO.",
+      "Implemented preprocessing and bounding box prediction.",
+      "Optimized for edge deployment.",
+      "Reduced latency via model tuning.",
+      "Developed real-time interaction pipeline.",
+      "Tested under varying environmental conditions."
+    ],
+    pdf: "/ACADEMIC_DISSERTATION_1_Real_time_object.pdf",
+  },
   {
     title: "Connected Vehicle Data Analysis – 2025",
     description: [
@@ -85,18 +97,6 @@ research: [
       "Evaluated models using Accuracy, Precision, Recall, F1-score."
     ],
     pdf: "/ACADEMIC_DISSERTATION_2_connected vehicle-reportfinal.pdf", 
-  },
-  {
-    title: "Real-time Object Detection System – 2025",
-    description: [
-      "Built real-time computer vision system using YOLO.",
-      "Implemented preprocessing and bounding box prediction.",
-      "Optimized for edge deployment.",
-      "Reduced latency via model tuning.",
-      "Developed real-time interaction pipeline.",
-      "Tested under varying environmental conditions."
-    ],
-    pdf: "/ACADEMIC_DISSERTATION_1_Real_time_object.pdf",
   },
 ],
   projects: [
