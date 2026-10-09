@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Sinchana Salimath — Aspiring Data Scientist & Computer Science Student",
+  title: "Sinchana Salimath — AI/ML & Full-Stack Engineer",
   author: "Sinchana Salimath",
   description:
-    "Aspiring Data Scientist & CS student, building AI-powered solutions in ML, computer vision, and web development—driven to solve real-world problems and keep learning.",
+    "AI/ML & Full-Stack Engineer building RAG systems, real-time computer vision and production-ready AI applications. Explore my work.",
   lang: "en",
   siteLogo: "/sinch.png",
   navLinks: [
@@ -23,202 +23,206 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Sinchana Salimath",
-    specialty: "Aspiring Data Scientist",
+    specialty: "AI/ML & Full-Stack Engineer",
     summary:
-      "Aspiring Data Scientist & CS student, building AI-powered solutions in ML, computer vision, and web development—driven to solve real-world problems and keep learning.",
-    email: "sinchanaasal@email.com",
-  },
- experience: [
-  {
-    company: "Manmed Dynamics",
-    position: "AI & ML Intern",
-    startDate: "Feb 2026",
-    endDate: "Present",
-    summary: [
-      "Developing machine learning modules for humanoid surgical assistant systems.",
-      "Designing data preprocessing pipelines for multi-source clinical datasets.",
-      "Integrating machine learning systems into low-latency robotic subsystems.",
-      "Evaluating system reliability and distributed architecture stability.",
-      "Contributing to fault-tolerant real-time machine learning workflows.",
-      "Worked in human-in-the-loop environments requiring reliable and interpretable outputs.",
-      "Considered interaction constraints and clarity in safety-critical applications."
-    ],
+      "I build and ship AI systems end to end: LLM and RAG applications, real-time computer vision, and the APIs and interfaces around them.",
+    email: "sinchanaasal@gmail.com",
   },
 
-  {
-    company: "EinetCorp",
-    position: "AI/ML Engineer",
-    startDate: "January 2025",
-    endDate: "May 2025",
-    summary: [
-      "Developed a real-time object detection system for assistive smart glasses for visually impaired users.",
-      "Designed and integrated a text-to-speech feedback system to communicate real-time environmental information.",
-      "Considered usability and accessibility challenges in delivering real-time auditory feedback.",
-      "Evaluated system performance under real-world conditions, including lighting variation and environmental complexity.",
-      "Addressed interaction challenges related to response time, clarity of output, and user perception in assistive scenarios.",
-      "Optimized system deployment on Raspberry Pi for efficient real-time performance.",
-    ],
-  }
-],   
-research: [
-  {
-    title: "Research Paper (Under Revision) Analyzing the Impact of Governance Effectiveness on Unemployment. – 2025–2026",
-    description: [
-      
-      "Integrated 27 years of World Bank WGI & WDI datasets.",
-      "Applied causal inference using DoWhy framework.",
-      "Performed statistical validation and robustness analysis.",
-      "Designed counterfactual simulations.",
-      "Identified significant causal relationships.",
-      "Focused on methodological reasoning and real-world interpretation."
-    ],
-     pdf: "/independent_research_paper.pdf", 
+  about: {
+    description: `
+      I'm an AI/ML Engineer with a BCA background and hands-on experience building AI applications end to end: data pipelines, retrieval systems, model evaluation, inference optimization, and API integration. I've worked on ML pipelines for humanoid surgical assistant systems, and on real-time computer vision for assistive smart glasses running on Raspberry Pi. I also build full-stack products with FastAPI, Node.js, React and PostgreSQL. Browse my projects below, and feel free to reach out.
+    `,
+    image: "/sinchmain.jpeg",
   },
-   {
-    title: "Real-time Object Detection System – 2025",
-    description: [
-      "Built real-time computer vision system using YOLO.",
-      "Implemented preprocessing and bounding box prediction.",
-      "Optimized for edge deployment.",
-      "Reduced latency via model tuning.",
-      "Developed real-time interaction pipeline.",
-      "Tested under varying environmental conditions."
-    ],
-    pdf: "/ACADEMIC_DISSERTATION_1_Real_time_object.pdf",
-  },
-  {
-    title: "Connected Vehicle Data Analysis – 2025",
-    description: [
-      "Designed IoT-based distributed architecture for vehicle data.",
-      "Built streaming pipelines for sensor data processing.",
-      "Performed preprocessing and feature extraction.",
-      "Implemented Random Forest and SVM models.",
-      "Handled distributed system challenges.",
-      "Evaluated models using Accuracy, Precision, Recall, F1-score."
-    ],
-    pdf: "/ACADEMIC_DISSERTATION_2_connected vehicle-reportfinal.pdf", 
-  },
-],
+
+  experience: [
+    {
+      company: "ManMed Dynamics",
+      position: "AI & ML Engineer Intern",
+      startDate: "Jan 2026",
+      endDate: "Apr 2026",
+      summary: [
+        "Built Python/PyTorch ML pipelines for humanoid surgical assistant systems, covering preprocessing, training, evaluation and optimization.",
+        "Developed real-time AI inference pipelines for robotic applications, focused on low latency and efficient deployment.",
+        "Built data pipelines for ingestion, cleaning and feature engineering across multi-source clinical datasets.",
+        "Supported model evaluation, monitoring, debugging and interpretability in human-in-the-loop systems.",
+        "Applied NLP and GenAI techniques to structured and unstructured data for decision-support workflows.",
+      ],
+    },
+    {
+      company: "EinetCorp",
+      position: "AI & ML Engineer Intern",
+      startDate: "Feb 2025",
+      endDate: "May 2025",
+      summary: [
+        "Built a real-time object detection app for assistive smart glasses using Python, TensorFlow, OpenCV and FastAPI.",
+        "Optimized inference on Raspberry Pi to 15–20 FPS, cutting latency by ~25%.",
+        "Integrated models with REST APIs and built preprocessing and evaluation workflows in Linux.",
+        "Added text-to-speech feedback to deliver environmental information to visually impaired users.",
+      ],
+    },
+  ],
+
+  research: [
+    {
+      title: "Research Paper (Under Revision) Analyzing the Impact of Governance Effectiveness on Unemployment. – 2025–2026",
+      description: [
+        "Integrated 27 years of World Bank WGI & WDI datasets.",
+        "Applied causal inference using DoWhy framework.",
+        "Performed statistical validation and robustness analysis.",
+        "Designed counterfactual simulations.",
+        "Identified significant causal relationships.",
+        "Focused on methodological reasoning and real-world interpretation.",
+      ],
+      pdf: "/independent_research_paper.pdf",
+    },
+    {
+      title: "Real-time Object Detection System – 2025",
+      description: [
+        "Built real-time computer vision system using YOLO.",
+        "Implemented preprocessing and bounding box prediction.",
+        "Optimized for edge deployment.",
+        "Reduced latency via model tuning.",
+        "Developed real-time interaction pipeline.",
+        "Tested under varying environmental conditions.",
+      ],
+      pdf: "/ACADEMIC_DISSERTATION_1_Real_time_object.pdf",
+    },
+    {
+      title: "Connected Vehicle Data Analysis – 2025",
+      description: [
+        "Designed IoT-based distributed architecture for vehicle data.",
+        "Built streaming pipelines for sensor data processing.",
+        "Performed preprocessing and feature extraction.",
+        "Implemented Random Forest and SVM models.",
+        "Handled distributed system challenges.",
+        "Evaluated models using Accuracy, Precision, Recall, F1-score.",
+      ],
+      pdf: "/ACADEMIC_DISSERTATION_2_connected vehicle-reportfinal.pdf",
+    },
+  ],
+
   projects: [
     {
-      name: "Breast Cancer Prediction system",
-      summary: "The Breast Cancer Diagnosis app is a machine learning-powered tool designed to assist medical professionals in diagnosing breast cancer.",
-      linkPreview: "https://breast-cancer-prediction-y8pagn8hxdvegvz6wvhr8q.streamlit.app/",
-      linkSource: "https://github.com/sinch2121/Breast-Cancer-Prediction",
-      image: "/breastcancer.jpg",
-    },
-     {
       name: "Gemini RAG System Using LLMs",
-      summary: "A Retrieval-Augmented Generation system using Google's Gemini LLMs for document-based Q&A.",
+      summary:
+        "RAG app for PDF, DOCX and TXT Q&A using Gemini, LangChain and FAISS with an agentic workflow. ~30% better answer relevance and sub-2-second responses.",
       linkPreview: "https://gemini-ragsystem-llm.streamlit.app/",
-      linkSource: "https://github.com/sinch2121/Gemini-Retrieval-Augmented-Generation-RAG-system-with-LLMs-from-Scratch",
+      linkSource:
+        "https://github.com/sinch2121/Gemini-Retrieval-Augmented-Generation-RAG-system-with-LLMs-from-Scratch",
       image: "/ai.jpg",
     },
     {
-  name: "Adaptive Focus-Aware Interface",
-  summary: "Built an adaptive HCI system that infers user attention from interaction patterns and adjusts the interface through real-time feedback and focus scoring.",
-  linkPreview: "https://sinch2121.github.io/hci-focus-adaptive-interface/",
-  linkSource: "https://github.com/sinch2121/hci-focus-adaptive-interface",
-  image: "/hci.jpg",
-},
-
-    {
-  name: "Phishing Website Detection System",
-  summary: "A machine learning-powered system that detects phishing websites in real time using a Random Forest model and Streamlit interface.",
-  linkPreview: "https://phishing-detection-ml-system-8lhhvtecobzhmzuc99edcd.streamlit.app/", // 🔴 ADD YOUR LINK
-  linkSource: "https://github.com/sinch2121/Phishing-detection-ML-system", // 🔴 UPDATE IF NEEDED
-  image: "/phishing.png", // 🔴 add image in public/
-},
-{
-  name: "Network Intrusion Detection System",
-  summary: "A real-time ML intrusion detection system using Random Forest with interactive analytics and Streamlit deployment.",
-  linkPreview: "https://network-intrusion-detection-system-ylmit8digwtipykt84qlb9.streamlit.app/", // 🔴 ADD YOUR LINK
-  linkSource: "https://github.com/sinch2121/network-intrusion-detection-system", // 🔴 UPDATE
-  image: "/network.jpeg",
-},
-{
-  name: "Cocktail Restaurant Website (GSAP Animations)",
-  summary: "An interactive restaurant website with smooth GSAP animations and immersive UI built using HTML, CSS, and JavaScript.",
-  linkPreview: "https://velvetpourgsap1.vercel.app/", // Netlify / Vercel
-  linkSource: "https://github.com/sinch2121/gsap_cocktails", // 🔴 UPDATE
-  image: "/cocktail2.png",
-},
-
-    {
-      name: "Document Tampering Detection App",
-      summary: "A Streamlit-based web application that detects tampering between two documents by comparing their visual similarity using Structural Similarity Index (SSIM).",
-      linkPreview: "https://document-tampering-detection-app-cuafstu6jfvk27tv9trkt5.streamlit.app/",
-      linkSource: "https://github.com/sinch2121/Document-Tampering-Detection-App",
-      image: "/pancard.jpg",
+      name: "Real-time Object Detection for Smart Glasses",
+      summary:
+        "End-to-end pipeline with YOLOv5, OpenCV and text-to-speech to assist visually impaired users. Runs at 15–20 FPS on Raspberry Pi with ~25% lower latency.",
+      linkSource: "https://github.com/sinch2121/Real-time-Object-Detection-using-Computer-Vision",
+      image: "/impaired.jpg",
     },
-
-      {
+    {
       name: "Project Management App",
-      summary: "A Project Management Platform using PostgreSQL, Express JS, React JS and node JS. Create, assign and manage projects. ",
+      summary:
+        "Full-stack platform built with PostgreSQL, Express, React and Node.js to create, assign and manage projects.",
       linkPreview: "https://project-management-fullstack-lyart.vercel.app/",
       linkSource: "https://github.com/sinch2121/project-management-fullstack",
       image: "/projmgt.jpg",
     },
-
-     {
-      name: "Real-time Object Detection using Computer Vision",
-      summary: "Built a Streamlit-based application using YOLOv5, OpenCV, and pyttsx3 to assist visually impaired users through smart glasses.",
-      linkSource: "https://github.com/sinch2121/Real-time-Object-Detection-using-Computer-Vision",
-      image: "/impaired.jpg",
+    {
+      name: "Breast Cancer Prediction System",
+      summary:
+        "ML-powered diagnosis tool with probability-based predictions and interactive visualization. ~95% accuracy on the Wisconsin Breast Cancer Dataset.",
+      linkPreview: "https://breast-cancer-prediction-y8pagn8hxdvegvz6wvhr8q.streamlit.app/",
+      linkSource: "https://github.com/sinch2121/Breast-Cancer-Prediction",
+      image: "/breastcancer.jpg",
     },
-
+    {
+      name: "Phishing Website Detection System",
+      summary:
+        "Detects phishing websites in real time using a Random Forest model with a Streamlit interface.",
+      linkPreview: "https://phishing-detection-ml-system-8lhhvtecobzhmzuc99edcd.streamlit.app/",
+      linkSource: "https://github.com/sinch2121/Phishing-detection-ML-system",
+      image: "/phishing.png",
+    },
+    {
+      name: "Network Intrusion Detection System",
+      summary:
+        "Real-time ML intrusion detection using Random Forest, with interactive analytics deployed on Streamlit.",
+      linkPreview: "https://network-intrusion-detection-system-ylmit8digwtipykt84qlb9.streamlit.app/",
+      linkSource: "https://github.com/sinch2121/network-intrusion-detection-system",
+      image: "/network.jpeg",
+    },
+    {
+      name: "Document Tampering Detection App",
+      summary:
+        "Streamlit web app that detects tampering between two documents by comparing visual similarity with the Structural Similarity Index (SSIM).",
+      linkPreview: "https://document-tampering-detection-app-cuafstu6jfvk27tv9trkt5.streamlit.app/",
+      linkSource: "https://github.com/sinch2121/Document-Tampering-Detection-App",
+      image: "/pancard.jpg",
+    },
+    {
+      name: "Adaptive Focus-Aware Interface",
+      summary:
+        "Adaptive HCI system that infers user attention from interaction patterns and adjusts the interface using real-time feedback and focus scoring.",
+      linkPreview: "https://sinch2121.github.io/hci-focus-adaptive-interface/",
+      linkSource: "https://github.com/sinch2121/hci-focus-adaptive-interface",
+      image: "/hci.jpg",
+    },
+    {
+      name: "Cocktail Restaurant Website (GSAP Animations)",
+      summary:
+        "Interactive restaurant website with smooth GSAP animations and an immersive UI built with HTML, CSS and JavaScript.",
+      linkPreview: "https://velvetpourgsap1.vercel.app/",
+      linkSource: "https://github.com/sinch2121/gsap_cocktails",
+      image: "/cocktail2.png",
+    },
     {
       name: "Advertisement of Indian Cities",
-      summary:"Designed a visually engaging static website using HTML and CSS to showcase popular Indian Cities.",
+      summary:
+        "Visually engaging static website built with HTML and CSS to showcase popular Indian cities.",
       linkSource: "https://github.com/sinch2121/Indian-cities",
       image: "/cities.jpg",
     },
     {
-      name: "To-do list using EJS",
-      summary:"A basic to-do list project which accepts necessary tasks.",
-      linkSource: "https://github.com/sinch2121/To-do-list-using-EJS",
-      image: "/to-do.jpg",
-    },
-     {
-      name: "Food delivery webpage",
-      summary:"Leveraged HTML, CSS, jQuery and Bootstrap to craft an intuitive and visually appealing user interface. ",
+      name: "Food Delivery Webpage",
+      summary:
+        "Responsive, visually appealing user interface built with HTML, CSS, jQuery and Bootstrap.",
       linkSource: "https://github.com/sinch2121/Food-Delivery-webpage",
       image: "/food.jpg",
     },
+    {
+      name: "To-do List using EJS",
+      summary: "A simple to-do list app built with Node.js and EJS for adding and managing tasks.",
+      linkSource: "https://github.com/sinch2121/To-do-list-using-EJS",
+      image: "/to-do.jpg",
+    },
   ],
-creativeProjects: [
-  {
-    name: "Constellation Effect",
-    link: "https://constellations-effect.netlify.app/",
-    image: "/constellation.png",
-  },
-  {
-    name: "Sunrays Effect",
-    link: "https://sunrays-effect.netlify.app/",
-    image: "/sunrays.png",
-  },
-  {
-    name: "Bubbles Effect",
-    link: "https://bubbles-effect.netlify.app/",
-    image: "/bubbles.png",
-  },
-  {
-    name: "Wave Bubbles",
-    link: "https://wave-bubbles.netlify.app/",
-    image: "/wave.png",
-  },
-  {
-    name: "Big Waves",
-    link: "https://wave-bubbles-big.netlify.app/",
-    image: "/bigwave.png",
-  },
-],
-  about: {
-    description: `
-      Hi, I'm an aspiring Data Scientist and Computer Science Graduate with hands-on experience in real-time Machine Learning Applications, Computer Vision, and Full-stack Development. I enjoy building intelligent systems—from AI-powered assistive tools to predictive analytics dashboards. Currently seeking internship or job opportunities where I can apply my skills in Python, ML, and Web Development to solve meaningful problems and keep learning along the way.
-    `,
-    image: "/sinchmain.jpeg",
-  },
-};
 
-// #5755ff
+  creativeProjects: [
+    {
+      name: "Constellation Effect",
+      link: "https://constellations-effect.netlify.app/",
+      image: "/constellation.png",
+    },
+    {
+      name: "Sunrays Effect",
+      link: "https://sunrays-effect.netlify.app/",
+      image: "/sunrays.png",
+    },
+    {
+      name: "Bubbles Effect",
+      link: "https://bubbles-effect.netlify.app/",
+      image: "/bubbles.png",
+    },
+    {
+      name: "Wave Bubbles",
+      link: "https://wave-bubbles.netlify.app/",
+      image: "/wave.png",
+    },
+    {
+      name: "Big Waves",
+      link: "https://wave-bubbles-big.netlify.app/",
+      image: "/bigwave.png",
+    },
+  ],
+};
